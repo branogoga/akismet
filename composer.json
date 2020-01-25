@@ -1,18 +1,16 @@
 {
-    "name": "kenmoini/akismet",
-    "description": "Laravel 4 Akismet SPAM Processing Engine",
-	"keywords": ["laravel","akismet","spam"],
-	"homepage": "https://github.com/kenmoini/akismet",
-    "authors": [
-        {
-            "name": "Ken Moini",
-            "email": "ken@kenmoini.com",
-		"homepage": "http://kenmoini.com"
-        }
-    ],
-	"license": "MIT",
+    "name": "branogoga/akismet",
+    "description": "Fork of Laravel 4 Akismet SPAM Processing Engine",
+    "keywords": ["laravel", "akismet", "spam"],
+    "homepage": "https://github.com/branogoga/akismet",
+    "authors": [{
+        "name": "Ken Moini",
+        "email": "ken@kenmoini.com",
+        "homepage": "http://kenmoini.com"
+    }],
+    "license": "MIT",
     "require": {
-        "php": ">=5.3.0",
+        "php": ">=7.3.0",
         "illuminate/support": "4.*",
         "guzzle/guzzle": "4.*"
     },
@@ -21,5 +19,5 @@
             "Kenmoini\\Akismet": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
